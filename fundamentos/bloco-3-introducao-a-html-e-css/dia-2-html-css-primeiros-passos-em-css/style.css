@@ -1,0 +1,54 @@
+h1
+        {
+            font-size: 65px;
+            color: orange;
+        }
+        ul
+        {
+            background-color: #d3d3d3;
+        }
+        .corfundo
+        {
+            background-color: #dfdfdf;
+        }
+
+        /*ex 2*/
+        h1
+        {
+            font-family: sans-serif;
+
+        }
+
+        p
+        {
+            font-weight:600;
+            font-size: 3em;
+        }
+
+        body
+        {
+            font-size: 16px;
+        }
+
+        li
+        {
+            font-style: oblique;
+            line-height:50px;
+            text-align: center;
+            text-decoration:underline;
+            background-color: rgb(77, 110, 71);
+            width: 80px;
+            font-weight: 700;
+        }
+        #marrom
+        {
+            color:brown;
+        }
+        #amarelo
+        {
+            color:yellow;
+        }
+        #vermelho
+        {
+            color: red;
+        }
