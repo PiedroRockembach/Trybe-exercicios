@@ -1,7 +1,15 @@
-let num = 10;
-let factored = 0;
-for (let index = 1; index < num; index += 1)
+let array = ['java', 'javascript', 'python', 'html', 'css'];
+let bigger = '';
+for (let index = 0; index < array.length; index += 1)
 {
-    factored += (num * index);
+    count = 0;
+    for (let indexInterno = 0; indexInterno < array[index].length; indexInterno += 1)
+    {
+        count += 1;
+    }
+    if (count > bigger.length)
+    {
+        bigger = array[index]
+    }
 }
-console.log(factored);
+console.log(bigger);
