@@ -57,11 +57,13 @@
   </head>
   <body>
     <script>
+    //Comece criando algumas coisas:
+    
       // 01  
       let body = document.body;
-      let h1JSDOM = document.createElement('h1');
-      h1JSDOM.innerHTML = 'Exercício - JavaScript DOM';
-      body.appendChild(h1JSDOM);
+      let tagh1 = document.createElement('h1');
+      tagh1.innerHTML = 'Exercício - JavaScript DOM';
+      body.appendChild(tagh1);
       //02
       let tagMain = document.createElement('main');
       tagMain.className = 'main-content';
@@ -106,8 +108,20 @@
       let tagh33 = document.createElement('h3');
       tagh33.innerHTML = 'LHOSO';
       tagMain.appendChild(tagh33);
-        
-      
+    //========================================================================================================================
+    //Agora que você criou muita coisa, vamos fazer algumas alterações e remoções:
+     
+      //01
+      tagh1.className = 'title';
+      tagh31.className = 'description';
+      tagh32.className = 'description';
+      tagh33.className = 'description';
+      tagMain.removeChild(sectionLeft);
+      sectionRight.style.marginRight = 'auto';
+      tagSection.parentNode.style.backgroundColor = 'green;'
+      tagSection.parentElement.style.background = 'green';
+      ul.lastElementChild.remove();
+      ul.lastElementChild.remove();
     </script>
   </body>
 </html>
